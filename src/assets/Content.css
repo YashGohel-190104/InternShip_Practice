@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+  }
+  .about{
+    color: black;
+  }
+  .text {
+    flex: 1;
+  }  
+  .text p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+  }
+  
