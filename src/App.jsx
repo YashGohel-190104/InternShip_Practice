@@ -8,6 +8,7 @@ import { ArrayDemo3 } from "./Components/ArrayDemo3";
 import { ArrayDemo4 } from "./Components/ArrayDemo4";
 import { Content } from "./Components/Content";
 import { Task_1 } from "./Components/Task-1";
+import { UseStateDemo } from "./Components/UseStateDemo";
 // import Footer from "./Components/Footer";
 // import { Header } from "./Components/Header";
 
@@ -25,7 +26,8 @@ function App() {
       {/* <ArrayDemo2></ArrayDemo2> */}
       {/* <ArrayDemo3></ArrayDemo3> */}
       {/* <ArrayDemo4></ArrayDemo4> */}
-      <Task_1></Task_1>
+      {/* <Task_1></Task_1> */}
+      <UseStateDemo></UseStateDemo>
     </div>
   )
 }

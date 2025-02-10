@@ -1,4 +1,4 @@
-import React from 'react'
+import 'react'
 
 export const Task_1 = () => {
     var cities = [
@@ -77,6 +77,7 @@ export const Task_1 = () => {
             </thead>
             <tbody>
                 {cities.map((city) => (
+                    // eslint-disable-next-line react/jsx-key
                     <tr>
                         <td>{city.id}</td>
                         <td>{city.name}</td>
