@@ -17,6 +17,11 @@ import { HotstarHome } from "./Components/Hotstar/HotstarHome";
 import { HotstarWelcome } from "./Components/Hotstar/HotstarWelcome";
 import { HotstarMovie } from "./Components/Hotstar/HotstarMovie";
 import { Error404 } from "./Components/Hotstar/Error404";
+import { FormDemo1 } from "./Components/forms/FormDemo1";
+import { FormDemo3 } from "./Components/forms/FormDemo3";
+import { FormDemo2 } from "./Components/forms/FormDemo2";
+import { FormDemo4 } from "./Components/forms/FormDemo4";
+import { TaskForm } from "./Components/forms/TaskForm";
 
 function App() {
   
@@ -29,6 +34,11 @@ function App() {
         <Route path="/" element={<HotstarWelcome/>}></Route>
         <Route path="/home" element={<HotstarHome/>}></Route>
         <Route path="/movie" element={<HotstarMovie/>}></Route>
+        <Route path="/formdemo1" element={<FormDemo1/>}></Route>
+        <Route path="/formdemo2" element={<FormDemo2/>}></Route>
+        <Route path="/formdemo3" element={<FormDemo3/>}></Route>
+        <Route path="/formdemo4" element={<FormDemo4/>}></Route>
+        <Route path="/task" element={<TaskForm/>}></Route>
         <Route path="/*" element={<Error404/>}></Route>
       </Routes>
       {/* <Header></Header> */}
