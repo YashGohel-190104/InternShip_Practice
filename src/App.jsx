@@ -22,6 +22,8 @@ import { FormDemo3 } from "./Components/forms/FormDemo3";
 import { FormDemo2 } from "./Components/forms/FormDemo2";
 import { FormDemo4 } from "./Components/forms/FormDemo4";
 import { TaskForm } from "./Components/forms/TaskForm";
+import { FormDemo5 } from "./Components/forms/FormDemo5";
+import { LoginForm } from "./Components/forms/LoginForm";
 
 function App() {
   
@@ -38,7 +40,9 @@ function App() {
         <Route path="/formdemo2" element={<FormDemo2/>}></Route>
         <Route path="/formdemo3" element={<FormDemo3/>}></Route>
         <Route path="/formdemo4" element={<FormDemo4/>}></Route>
+        <Route path="/formdemo5" element={<FormDemo5/>}></Route>
         <Route path="/task" element={<TaskForm/>}></Route>
+        <Route path="/loginform" element={<LoginForm/>}></Route>
         <Route path="/*" element={<Error404/>}></Route>
       </Routes>
       {/* <Header></Header> */}
