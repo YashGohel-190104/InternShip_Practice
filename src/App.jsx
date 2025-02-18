@@ -27,6 +27,8 @@ import { LoginForm } from "./Components/forms/LoginForm";
 import { FormDemo6 } from "./Components/forms/FormDemo6";
 import { FormDemo7 } from "./Components/forms/FormDemo7";
 import { ApiDemo1 } from "./Components/Apis/ApiDemo1";
+import { SearchMovie } from "./Components/IMDB/SearchMovie";
+import { MovieDetails } from "./Components/IMDB/MovieDetails";
 
 function App() {
   
@@ -49,6 +51,8 @@ function App() {
         <Route path="/apidemo1" element={<ApiDemo1/>}></Route>
         <Route path="/task" element={<TaskForm/>}></Route>
         <Route path="/loginform" element={<LoginForm/>}></Route>
+        <Route path="/searchMovie" element={<SearchMovie/>}></Route>
+        <Route path="/moviedetails/:id" element={<MovieDetails/>}></Route>
         <Route path="/*" element={<Error404/>}></Route>
       </Routes>
       {/* <Header></Header> */}
