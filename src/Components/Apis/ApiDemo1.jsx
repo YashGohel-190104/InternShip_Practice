@@ -1,6 +1,6 @@
 import axios from 'axios';
 import  'react'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export const ApiDemo1 = () => {
 
@@ -16,12 +16,15 @@ export const ApiDemo1 = () => {
         console.log(res.data.data);
         setusers(res.data.data); 
     }
+    useEffect(() => {
+        getUser();
+    }, [])
     
 
   return (
     <div style={{textAlign:"center"}}>
         <h1>Api Demo1</h1>
-        <button onClick={getUser}>Get User</button><br></br>
+        {/* <button onClick={getUser}>Get User</button><br></br> */}
         {/* {message}
         {
             users?.map((user)=>{
